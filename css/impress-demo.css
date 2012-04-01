@@ -63,15 +63,12 @@ body {
     font-family: 'PT Sans', sans-serif;
     
     min-height: 740px;
-
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-
-    -webkit-font-smoothing: antialiased;
+    color: #F07F97; /*light pink*/
+  background: #BA0F0F; /*deep maroon*/
+  background: -webkit-radial-gradient(center bottom, circle farthest-corner, #000000, rgb(54, 0, 0), rgb(255, 0, 0));
+  background: -moz-radial-gradient(center bottom, circle farthest-corner, #000000, rgb(54, 0, 0), rgb(255, 0, 0));
+  background: -o-radial-gradient(center bottom, circle farthest-corner, #000000, rgb(54, 0, 0), rgb(255, 0, 0));
+  background: -radial-gradient(center bottom, circle farthest-corner, #000000, rgb(54, 0, 0), rgb(255, 0, 0));
 }
 
 b, strong { font-weight: bold }

@@ -23,13 +23,13 @@ $(document).ready(function () {
         });
     });
 
-    setTimeout(invokeSlideShare, 200);
-    setTimeout(invokeFB, 300);
+    setTimeout(invokeSlideShare, 10);
+    setTimeout(invokeFB, 20);
 
     function invokeSlideShare() {
         var params = { allowScriptAccess: "always" };
         var atts = { id: "player" };
-        var flashvars = { doc: "thirst-upload-800x600-1215534320518707-8" };
+        var flashvars = { doc: "lovestory-120407182457-phpapp01" };
 
         swfobject.embedSWF("http://static.slidesharecdn.com/swf/ssplayer2.swf"
              , "player", "600", "400", "8", null, flashvars, params, atts);
@@ -46,15 +46,5 @@ $(document).ready(function () {
         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
     }
-
-    /*
-    (function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-    } (document, 'script', 'facebook-jssdk'));
-    */
 });
 

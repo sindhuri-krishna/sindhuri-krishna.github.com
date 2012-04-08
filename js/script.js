@@ -29,7 +29,7 @@ $(document).ready(function () {
     function invokeSlideShare() {
         var params = { allowScriptAccess: "always" };
         var atts = { id: "player" };
-        var flashvars = { doc: "lovestory-120407182457-phpapp01" };
+        var flashvars = { doc: "lovestory-120408013208-phpapp02" };
 
         swfobject.embedSWF("http://static.slidesharecdn.com/swf/ssplayer2.swf"
              , "player", "600", "400", "8", null, flashvars, params, atts);
